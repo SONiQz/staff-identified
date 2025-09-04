@@ -106,11 +106,25 @@ $filtered = array_filter($users, fn($user) =>
   <meta charset="UTF-8">
   <title>User Directory</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; }
-    table { border-collapse: collapse; width: 100%; }
-    th, td { padding: 8px 12px; border: 1px solid #ccc; text-align: left; }
-    th { background-color: #f4f4f4; }
-    tr:nth-child(even) { background-color: #fafafa; }
+    body { 
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+    }
+    table { 
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td { 
+        padding: 8px 12px; 
+        border: 1px solid #ccc;
+        text-align: left; 
+    }
+    th { 
+        background-color: #f4f4f4; 
+    }
+    tr:nth-child(even) {
+        background-color: #fafafa;
+    }
   </style>
 </head>
 <body>
